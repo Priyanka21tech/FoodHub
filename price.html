@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script type="text/javascript" src="E:/M4_STRUTS/Activities/jquery-1.9.0.min.js"></script>
+    </head>
+    <body>
+    <header class="wrapper">
+            
+            <div id="vhead">
+                <div id="banner">
+                <a href="#">
+                <img src="E:\M4_STRUTS\FoodHubActivity\images\foodhub_white.png" alt="logo"></a>
+                </div>
+                <div id="lg"><a href="login.html">Login</a> | <a href="Find.html">Find us</a> <br>
+                </div>
+                <div id="contact">
+                    <span style="float:right">Call us+177927890</span>
+                    <br>
+                    <span style="float:right">Email:Info@foodhub.com</span>
+                </div>
+                <!--banner ends-->
+
+            <!--main nav-->
+            <nav id="topnav" role="navigation">
+
+            <ul class="srt-menu" id="menu-main-navigation">
+                <li class="current">
+                    <a href="FoodHub.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Recipes</a>
+                </li>
+                <li>
+                    <a href="">Best Deal</a>
+                </li>
+                
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+                
+                </nav>
+            </div>
+            <br>                                    
+        <p style="clear:both"></p>
+            
+        </header>
+        <br>
+        
+        <section class="section">
+            
+           
+        <div class="sidebar">
+                <h2>Quick Menu :</h2>
+                <a href="">
+                    <li>Burgers</li>
+                    <li>Chicken Specialities</li>
+                    <li>Deserts</li>
+                    <li>Drinks</li>
+                    <li>Kebabs</li>
+                    <li>Rice/Biryani</li>
+                    <li>Pastas</li>
+                    <li>Soups and Salads</li>
+                </a>
+            </div>
+            
+            <div id="list">
+            <h2>Items Price List :</h2>
+                
+                <table id="table" border="3px solid black">
+                     <tr class="ctDiv">
+                        <td>S.no</td>
+                        <td>Item Name</td>
+                        <td>Price</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>1</td>
+                        <td>Mini Chicken Burger</td>
+                        <td>$1.5</td>
+                     </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>2</td>
+                        <td>Chicken Burger</td>
+                        <td>$1.5</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>3</td>
+                        <td>Small size Pizza</td>
+                        <td>$1</td>
+                    </tr>
+                    
+                    <tr class="ctDiv">
+                        <td>4</td>
+                        <td>Medium size Pizza</td>
+                        <td>$1.5</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>5</td>
+                        <td>Full size Pizza</td>
+                        <td>$2</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>6</td>                                            
+                        <td>Small fruit Cake</td>
+                        <td>$3</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>7</td>
+                        <td>Medium Fruit Cake</td>
+                        <td>$2.5</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>8</td>
+                        <td>Chocolate Cake</td>
+                        <td>$2</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>9</td>
+                        <td>Small Peepsi</td>
+                        <td>$1</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>10</td>
+                        <td>Medium Peespsi</td>
+                        <td>$2</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>11</td>
+                        <td>Grilled Chicken</td>
+                        <td>$1.5</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>12</td>
+                        <td>Steamed Fish</td>
+                        <td>$3</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>13</td>
+                        <td>Mixed fruit Juice</td>
+                        <td>$2.5</td>
+                    </tr>
+                    
+                     <tr class="ctDiv">
+                        <td>14</td>
+                        <td>Veg-Pasta</td>
+                        <td>$4.5</td>
+                    </tr>
+                    
+                    <tr class="ctDiv">
+                        <td>15</td>
+                        <td>Non-veg Pasta</td>
+                        <td>$7.5</td>
+                    </tr>
+                    
+                    <tr class="ctDiv">
+                    <td colspan="3" style="color:black; font-style:bold;">All Item price includes 12% tax.</td></tr>
+                </table>
+            </div>
+                 
+        </section>
+        
+        <script>
+            $(document).ready(function()
+                             {
+                                  $(".ctDiv").each(function(index,element)
+                                                  {
+                                      $(element).css("background-color","pink");
+                                  });
+                            
+                    $(".ctDiv").first().css("background-color","yellow");
+                    $(".ctDiv").last().css("background-color","yellow");
+                            });
+        </script>
+        
+    </body>
+</html>
