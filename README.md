@@ -1,2 +1,2 @@
 # FoodHub
-Works on Bootsrap IDE
+Works well on Brackets IDE
